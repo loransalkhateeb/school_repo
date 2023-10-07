@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>School System</title>
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="form-section">
+            <h2>Add Student</h2>
+            <form id="student-form">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" required>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required>
+                <label for="gender">Gender:</label>
+                <select id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="major">Major:</label>
+                <select id="major" required>
+                    <option value="Administration">Administration</option>
+                    <option value="IT">IT</option>
+                    <option value="Science">Science</option>
+                    <option value="Art">Art</option>
+                </select>
+                <label for="image-url">Image URL:</label>
+                <input type="text" id="image-url" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" required>
+                <button type="submit">Add</button>
+            </form>
+        </section>  
+        <section id="student-cards">
+            <h2>Student List</h2>
+            <!-- Student cards will be added here using JavaScript -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 School System</p>
+    </footer>
+    <script src="school.js"></script>
+</body>
+</html>
