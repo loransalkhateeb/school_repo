@@ -5,9 +5,10 @@ body, h1, h2, h3, p {
 }
 
 body{
-    background: url("https://us.123rf.com/450wm/junce/junce1704/junce170400163/75968904-office-worker-is-holding-a-blank-smartphone-screen-in-morning-scene-office.jpg?ver=6");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://us.123rf.com/450wm/junce/junce1704/junce170400163/75968904-office-worker-is-holding-a-blank-smartphone-screen-in-morning-scene-office.jpg?ver=6");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 /* Basic styling for the header and navigation */
 header {
